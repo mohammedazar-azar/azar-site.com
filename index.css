@@ -11,14 +11,21 @@ H
 {
 
 color:rgb(236, 236, 26);
-text-align:center;
+position: absolute;
+left: 700px;
+
+top: 70PX;
+text-shadow: 5px black;
+font-size: xx-large;
+
+
 
 
 }
 body
 {
 
-    background-color:rgb(145, 85, 145);
+    background-color:rgb(70, 5, 70);
     
 }
 
@@ -61,3 +68,5 @@ li{
     border-radius: 0%;
     
 }
+
+  
