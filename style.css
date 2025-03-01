@@ -1,64 +1,38 @@
-*
+
+
+.p
 {
+    width: 100%;
+    height: 100%;
+
+    background-size:cover;
    
-background-color:white;
 }
-.U
+.k
 {
-  
-    height: 300px;
-    width: 300px;
-  
-    
-    margin-top: 130px;
-    margin-left: 500px;
+    color: pink;
 
-    text-align: center;
-    
+    background-image: url(file:///C:/Users/LENOVO/OneDrive/Pictures/IMG_20250301_000205_542.jpg );
+    width: 100%;
+    height: 100%;
 
-}
-.K
-{
-    
-    height: 30px;
-    width: 500px;
-    text-align: center;
-    margin-left: 450PX;
-}
+    background-size:cover;
 
-h1{
-    text-shadow: 0px 0px 10px #1fe6ec;
-    text-shadow: 0px 0px 20px #1fe6ec;
-    text-shadow: 0px 0px 30px #1fe6ec;
-    text-shadow: 0px 0px 40px #1fe6ec ;
-    font-size: 35px;
-     color: #03484b;
-        margin-left:15px;
-    
-}
-MARQUEE
-{
-    text-shadow: 0px 0px 10px #1fe6ec;
-    text-shadow: 0px 0px 20px #1fe6ec;
-    text-shadow: 0px 0px 30px #1fe6ec;
-    text-shadow: 0px 0px 40px #1fe6ec;
-    font-size: 35px;
-     color:#03484b;
-        margin-left:15px;
 }
 span
 {
-    text-shadow: 0px 0px 10px #1fe6ec;
-    text-shadow: 0px 0px 20px #1fe6ec;
-    text-shadow: 0px 0px 30px #1fe6ec;
-    text-shadow: 0px 0px 40px #1fe6ec;
-    font-size: 50px;
-     color: #03484b;
-        margin-left:15px;
+    text-shadow: 0px 0px 10px pink;
+    text-shadow: 0px 0px 20px pink;
+    text-shadow: 0px 0px 30px pink;
+    text-shadow: 0px 0px 40px pink;
+    font-size: 95px;
+     color:pink;
+align-self: center;
         position: relative;
         font-family: "lato",sans-serif;
-        top:  20px;
-        color:rgb(17, 252, 252);
+        top:  70px;
+        margin-left: 500px;
+        color:pink;
         display: inline-block;
         
         text-shadow: 0 1px 0 #b7b7b7,0 2px 0 #b7b7b7,0 3p 0 #b7b7b7,0 4px 0 #b7b7b7,0 5px 0 #b7b7b7,0 6px 0 #b7b7b7.0 6px 0 #b7b7b7,0 7px 0 #b7b7b7,0 8px 0 #b7b7b7,0 9px 0 transparent,0 10px rgba(0,0,0.3);
@@ -105,26 +79,22 @@ span:nth-child(4)
         
             }
         }
-     .v
-     {
-        text-align: center;
-        margin-top: 100px;
-        margin-left: 500px;
-        height: 20px;
-        width:350px ;
-     }
-      
-     .e
-     {
-        height: 10px;
-        width: 10px;
-      
-        
-        
-        margin-left: 400px;
-        font-size: xx-large;
-     }
-     .q
-     {
-        margin-left: 600px;
-     }
+h1{
+    text-shadow: 0px 0px 10px pink;
+    text-shadow: 0px 0px 20px pink;
+    text-shadow: 0px 0px 30px pink;
+    text-shadow: 0px 0px 40px pink;
+    
+    text-align: center;   
+    font-size: 150px;
+}
+marquee
+{
+    text-shadow: 0px 0px 10px pink;
+    text-shadow: 0px 0px 20px pink;
+    text-shadow: 0px 0px 30px pink;
+    text-shadow: 0px 0px 40px pink;
+    font-size: 150px;
+    margin-top: 300px;
+    margin-left: 500px;
+}
