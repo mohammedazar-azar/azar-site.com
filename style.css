@@ -1,46 +1,84 @@
-
-
-.p
+*
 {
-    width: 100%;
-    height: 100%;
+    margin: 0;
+    font-family: arial;
+    border: border-box;
 
-    background-size:cover;
-   
+
 }
+.TITLE
+{
+height: 60px;
+background-color: #0f1111;
+color:white;
+display: flex;
+    
+align-items: center;
+
+
+}
+.s
+{
+    height: 5px;
+    color:white;
+    
+    margin-left:20px;
+    margin-bottom: 20px;
+}
+
 .k
 {
-    color: pink;
+    height: 5px;
+    color:white;
+    margin-left:20px;
+   margin-bottom: 20px;
+}
+.search
+{
+    margin-left: 15px;
+    margin-top: 15PX;
+    height: 34PX;
+}
+.o
+{
+    width: 500px;
+    height: 30PX;
+    
+}
+.e
+{
+    margin-left: 15px;
+    margin-bottom: 15PX;
+}
 
-    background-image: url(IMG_20250301_000205_542);
-    width: 100%;
-    height: 100%;
+.ima
+{
+    height: 90px;
+    
+    border: 2px solid black;
+    background-color:#0f1111;
+    font-size: xx-large;
+    text-align: center;
+    animation:color  ease-in 1s infinite normal;
+    
+color:black;
 
-    background-size:cover;
 
 }
 span
 {
-    text-shadow: 0px 0px 10px pink;
-    text-shadow: 0px 0px 20px pink;
-    text-shadow: 0px 0px 30px pink;
-    text-shadow: 0px 0px 40px pink;
-    font-size: 95px;
-     color:pink;
-align-self: center;
-        position: relative;
-        font-family: "lato",sans-serif;
-        top:  70px;
-        margin-left: 500px;
-        color:pink;
-        display: inline-block;
-        
-        text-shadow: 0 1px 0 #b7b7b7,0 2px 0 #b7b7b7,0 3p 0 #b7b7b7,0 4px 0 #b7b7b7,0 5px 0 #b7b7b7,0 6px 0 #b7b7b7.0 6px 0 #b7b7b7,0 7px 0 #b7b7b7,0 8px 0 #b7b7b7,0 9px 0 transparent,0 10px rgba(0,0,0.3);
-        
-        animation: bounce 0.4s ease infinite alternate;
-        
-}
+    position: relative;
+font-family: "lato",sans-serif;
+top:  20px;
+color:azure;
+display: inline-block;
+font-size: xx-large;
+text-shadow: 0 1px 0 #b7b7b7,0 2px 0 #b7b7b7,0 3p 0 #b7b7b7,0 4px 0 #b7b7b7,0 5px 0 #b7b7b7,0 6px 0 #b7b7b7.0 6px 0 #b7b7b7,0 7px 0 #b7b7b7,0 8px 0 #b7b7b7,0 9px 0 transparent,0 10px rgba(0,0,0.3);
 
+animation: bounce 0.4s ease infinite alternate;
+
+
+}
 span:nth-child(1){
     animation-delay: 0.1s;
   }
@@ -61,7 +99,7 @@ span:nth-child(4)
 {
     animation-delay: 0.5s;
     text-shadow: 0px 0px 10px #1fe6ec;
-           }
+           ;}
     span:nth-child(6)
     {
         animation-delay :o.6s;
@@ -78,23 +116,71 @@ span:nth-child(4)
                 text-shadow: 0 1px 0 #b7b7b7,0 2px 0 #b7b7b7,0 3p 0 #b7b7b7,0 4px 0 #b7b7b7,0 5px 0 #b7b7b7,0 6px 0 #b7b7b7.0 6px 0 #b7b7b7,0 7px 0 #b7b7b7,0 8px 0 #b7b7b7,0 9px 0 transparent,0 10px rgba(0,0,0.3);
         
             }
+        
         }
-h1{
-    text-shadow: 0px 0px 10px pink;
-    text-shadow: 0px 0px 20px pink;
-    text-shadow: 0px 0px 30px pink;
-    text-shadow: 0px 0px 40px pink;
-    
-    text-align: center;   
-    font-size: 150px;
-}
-marquee
-{
-    text-shadow: 0px 0px 10px pink;
-    text-shadow: 0px 0px 20px pink;
-    text-shadow: 0px 0px 30px pink;
-    text-shadow: 0px 0px 40px pink;
-    font-size: 150px;
-    margin-top: 300px;
-    margin-left: 500px;
-}
+       
+       
+        h1{
+            text-shadow: 0px 0px 10px #1fe6ec;
+            text-shadow: 0px 0px 20px #1fe6ec;
+            text-shadow: 0px 0px 30px #1fe6ec;
+            text-shadow: 0px 0px 40px #1fe6ec;
+            font-size: 30px;
+             color: #5cfaff;
+                margin-left:15px;
+            
+        }
+        
+        .down
+        {
+            height: 60px;
+         background-color: #0f1111;
+        color:white;
+        
+       align-items: center;
+       text-align: center;
+     
+        }
+        .side
+        {
+            height: 600px;
+            width: 90px;
+            background-color: #0f1111;
+           color:white;
+           
+        
+        }
+        span
+        {
+            text-shadow: 0px 0px 10px #1fe6ec;
+            text-shadow: 0px 0px 20px #1fe6ec;
+            text-shadow: 0px 0px 30px #1fe6ec;
+            text-shadow: 0px 0px 40px #1fe6ec;
+            font-size: 60px;
+             color: #5cfaff;
+                margin-left:15px;
+        }
+        MARQUEE
+        {
+            text-shadow: 0px 0px 10px #1fe6ec;
+            text-shadow: 0px 0px 20px #1fe6ec;
+            text-shadow: 0px 0px 30px #1fe6ec;
+            text-shadow: 0px 0px 40px #1fe6ec;
+            font-size: 30px;
+             color: #5cfaff;
+                margin-left:15px;
+        } 
+        .j{
+            display: flex;
+        }
+      
+        .H{
+            margin-top: 100PX;
+            margin-left: 40PX;
+          
+        }
+      .I:hover{
+color: #608788;
+
+text-shadow: 0px 0px 10px #1fe6ec;
+      }
