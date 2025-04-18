@@ -1,141 +1,227 @@
 
-<html>
+<html >
 <head>
+    <title>vishal super smart</title>
+    <style>
+        body {
+            background-color: rgb(99, 67, 67);
+            margin: 0;
+            padding: 0;
+            font-family: Arial, sans-serif;
+        }
 
-    <link rel="stylesheet" href="style.css">
+        .main {
+            text-align: center;
+        }
 
+        .name {
+            background-color: rgb(88, 57, 57);
+            margin: 50px auto;
+            height: 90px;
+            display: inline-block;
+            border-radius: 100px;
+            animation: mam 6s 0.2s infinite ease-in-out;
+            color: rgb(99, 67, 67);
+        }
 
+        @keyframes mam {
+            0%   { width: 250px; }
+            20%  { width: 450px; }
+            30%  { width: 650px; }
+            40%  { width: 850px; }
+            50%  { width: 1050px; }
+            75%  { width: 1250px; }
+            85%  { width: 1350px; }
+            95%  { width: 1450px; }
+            100% { width: 1450px; }
+        }
+
+        .name span {
+            display: inline-block;
+            animation: abcd 6s 0.2s infinite ease-in-out;
+        }
+
+        @keyframes abcd {
+            0%   { color: white; font-size: 30px; text-transform: capitalize; }
+            10%  { color: orange; font-size: 40px; text-transform: lowercase; }
+            20%  { color: red; font-size: 50px; text-transform: capitalize; }
+            30%  { color: rgb(19, 216, 45); font-size: 60px; text-transform: lowercase; }
+            40%  { color: black; font-size: 65px; text-transform: capitalize; }
+            100% {
+                color: rgb(199, 242, 248);
+                font-size: 70px;
+                text-transform: uppercase;
+                text-shadow: 0 0 10px rgb(211, 184, 182),
+                             0 0 20px rgb(211, 184, 182),
+                             0 0 30px rgb(211, 184, 182),
+                             0 0 40px rgb(211, 184, 182);
+            }
+        }
+
+        .searc {
+            margin-top: 150px;
+            position: relative;
+        }
+
+        .a {
+            padding: 10px;
+            font-size: 16px;
+            border-radius: 14px;
+            border:2px  solid rgb(99, 67, 67);
+            width: 350px;
+            height: 40px;
+        }
+
+        .suggestions {
+            position: absolute;
+            top: 45px;
+            left: 50%;
+            transform: translateX(-50%);
+            background-color: white;
+            width: 300px;
+            background-color:  rgb(99, 67, 67);
+            max-height: 150px;
+            overflow-y: auto;
+            border-radius: 14px;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+            z-index: 10;
+        }
+
+        .suggestions div {
+            padding: 10px;
+            cursor:grab;
+            text-align: center;
+        }
+
+        .suggestions div:hover {
+            background-color: rgb(114, 88, 88);
+        }
+
+        .b {
+            padding: 15px 25px;
+            font-size: 16px;
+            background-color: #442929;
+            border: none;
+            border-radius: 14px;
+            cursor: pointer;
+            margin-left: 10px;
+            color:aliceblue;
+        }
+
+        .b:hover {
+            background-color: #332a2a;
+        }
+
+        #response {
+            margin-top: 20px;
+            font-size: 20px;
+            color: white;
+        }
+    </style>
 </head>
-<Body>
+<body>
 
-
-  
-    <header>
-
-        <div class="u">
-            <div class="ima">
-              <span>U</span>
-              <span><sub>R</sub></span>
-        <span>C</span>
-        <span>A</span>
-        <span>R</span>
-        <span>S</span>
-        
-                </div>
+    <div class="main">
+        <div class="name">
+            <span>v</span>
+            <span>i</span>
+            <span>s</span>
+            <span>h</span>
+            <span>a</span>
+            <span>l</span>
         </div>
 
-        
-        <div class="TITLE">
-
-<h1> U<sub>R</sub>CARS</h1>
-<div class="s">
-   <select>
- 
-    <option>locatioan</option>
-    <option>INDIA</option>
-   </select>
-</div>
-
-<div class="k"><p>we sell best cars for u</p></div>    
-
-<div class="search">
-    <select>
-        <option>ALL</option>
-        <option>petrole</option>
-        <option>deisel</option>
-        <option>electric</option>
-        <option>mp5</option>
-        <option>corpater</option>
-        <option>7 saaters</option>
-        <option>5 seaters</option>
-       
-
-    </select>
-</div>
-<div ><input type="text" placeholder="search for vechle by name" class="o"></div>
-<div class="logo">
-    <button class="I" onclick="alert('this is just demo page ')">enter</button>
-</div>
-<div class="e">
-    <p>GET BEST FROM LESS<SUB>TAKE FIRST STEP<SUB>WITH US </SUB></p>
-</div>
-
-</div>  
-
-
-    <div class="j">
-        <div class="side">
-            <span>B</span>    
-            <span>E</span>
-            <SPAN>U</SPAN>
-            <span>N</span>
-            <SPAN>I</SPAN>
-            <SPAN>Q</SPAN>
-            <SPAN>U</SPAN>
-            <span>E</span>
-            
-            </div> 
-            <div class="h">
-            <a href="shp1.html"><img src="c:\Users\LENOVO\Downloads\shift.jpg"></a>
-            <details class="I">
-                <summary>maruthi swift</summary>
-                <p>MODEL:2005</p>
-                <p>OWNER:2ND</p>
-                <P>DOCCUMENTS:FULL</P>
-                <P>FC:2028</P>
-                <P>INSURANCE:PAID</P>
-                <P>COLOUR:RED</P>
-                <P>CONTACT:12345</P>
-            </details>
-            </div>
-           
-            <div class="h">
-                <a href="shp1.html"><img src="c:\Users\LENOVO\Downloads\shift.jpg"></a>
-                <details class="I">
-                    <summary>maruthi swift</summary>
-                    <p>MODEL:2005</p>
-                    <p>OWNER:2ND</p>
-                    <P>DOCCUMENTS:FULL</P>
-                    <P>FC:2028</P>
-                    <P>INSURANCE:PAID</P>
-                    <P>COLOUR:RED</P>
-                    <P>CONTACT:12345</P>
-                </details>
-                </div>
-                <div class="h">
-                    <a href="shp1.html"><img src="c:\Users\LENOVO\Downloads\shift.jpg"></a>
-                    <details class="I">
-                        <summary>maruthi swift</summary>
-                        <p>MODEL:2005</p>
-                        <p>OWNER:2ND</p>
-                        <P>DOCCUMENTS:FULL</P>
-                        <P>FC:2028</P>
-                        <P>INSURANCE:PAID</P>
-                        <P>COLOUR:RED</P>
-                        <P>CONTACT:12345</P>
-                    </details>
-                    </div>
-                    <div class="h">
-                        <a href="shp1.html"><img src="c:\Users\LENOVO\Downloads\shift.jpg"></a>
-                        <details class="I">
-                            <summary>maruthi swift</summary>
-                            <p>MODEL:2005</p>
-                            <p>OWNER:2ND</p>
-                            <P>DOCCUMENTS:FULL</P>
-                            <P>FC:2028</P>
-                            <P>INSURANCE:PAID</P>
-                            <P>COLOUR:RED</P>
-                            <P>CONTACT:12345</P>
-                        </details>
-                        </div>
+        <div class="searc">
+            <input type="text" class="a" id="in" placeholder="🔍 search here..." oninput="showSuggestions()">
+            <div class="suggestions" id="suggestionsBox"></div>
+            <button class="b" onclick="checkInput()">Enter</button>
+            <div id="response"></div>
+        </div>
     </div>
-   
-    
+
+    <script>
+        const knownItems = {
+            "shampoo": "It is available on the top floor at shelf number 10.",
+            "soap": "It is available on the top floor at shelf number 8.",
+            "brush": "It is available on the top floor at shelf number 9.",
+            "hi": "Hello! Welcome ✨ to smart vishal",
+            "hii": "Hello! Welcome ✨ to smart vishal",
+            "developer":"azar shesha shawn ",
+
+        };
+
+        const altSpellings = {
+            "shampo": "shampoo",
+            "sop": "soap",
+            "brsh": "brush",
+            "bruh": "brush",
+            "helo": "hi",
+            "founder":"developer",
+            "coder":"developer"
+        };
+
+        function checkInput() {
+            let input = document.getElementById("in").value.trim().toLowerCase();
+            const responseBox = document.getElementById("response");
+            const suggestionsBox = document.getElementById("suggestionsBox");
+            suggestionsBox.innerHTML = "";
+
+      
+            if (!knownItems[input] && altSpellings[input]) {
+                input = altSpellings[input];
+            }
+
+            for (const key in knownItems) {
+                if (input.includes(key)) {
+                    responseBox.innerHTML = knownItems[key];
+                    return;
+                }
+            }
+
+            responseBox.innerHTML = "Sorry, can you type it clearly?";
+        }
+
+        function showSuggestions() {
+            const input = document.getElementById("in").value.trim().toLowerCase();
+            const suggestionsBox = document.getElementById("suggestionsBox");
+            suggestionsBox.innerHTML = "";
+
+            if (input.length === 0) return;
+
+            const suggestions = Object.keys(knownItems).filter(item =>
+                item.startsWith(input) || item.includes(input)
+            );
+
+            const altSuggestions = Object.keys(altSpellings).filter(item =>
+                item.startsWith(input) || item.includes(input)
+            );
+
+            const allSuggestions = [...new Set([...suggestions, ...altSuggestions])];
+
+            allSuggestions.forEach(suggestion => {
+                const div = document.createElement("div");
+                div.textContent = suggestion;
+                div.onclick = () => {
+                    document.getElementById("in").value = suggestion;
+                    suggestionsBox.innerHTML ="";
+                    checkInput();
+                };
+                suggestionsBox.appendChild(div);
+            });
+        }
+
+        document.getElementById("in").addEventListener("keypress", function (e) {
+            if (e.key === "Enter") {
+                checkInput();
+            }
+        });
+    </script>
+
+<h1 style="font-size: 15px; color: aliceblue; margin-top: 170px; margin-left:20px;">
+    webpage developed by team <br>Smell..<br>contact:9483927300<br>@smell1000@gmail.com<br>
+<img src="c:\Users\LENOVO\OneDrive\Desktop\vish.png" style="width: 200px;height: 100px;">
+</h1>
 
 
-<div class="down">
-    <MARQUEE>THANK YOU FOR VISITING MY SHOP WEBSITE</MARQUEE>
-</div>
-    </header>
-</Body>
+</body>
 </html>
